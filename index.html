@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.7/css/all.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  
+  <title>Frontend Mentor | Bookmark landing page</title>
+
+</head>
+
+<body>
+
+  <header>
+    <img class="logo" src="images/logo-bookmark.svg" alt="logo-bookmark">
+    <div class="navbar1">
+      <a href="#">Features</a>
+      <a href="#">Pricing</a>
+      <a href="#">Contact</a>
+      <button>Login</button>
+    </div>
+    <nav class="navbar">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasNavbarLabel"><img class="logo" src="images/logo-bookmark.svg" alt="logo-bookmark"></h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <li class="nav-item ">
+                <a class="nav-link" aria-current="page" href="#">Features</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Pricing</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+              </li>
+            </ul>
+            <div class="d-grid">
+              <button class="btn btn-primary" type="button">Login</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+
+  <main>
+    <div class="f-div">
+      <div class="fs-div">
+        <h1>A Simple Bookmark Manager</h1>
+        <p>A clean and simple interface to organize your favourite websites. Open a new 
+        browser tab and see your sites load instantly. Try it for free.
+        </p>
+
+        <div class="double-b">
+          <button class="b-one">Get it on Chrome</button>
+          <button class="b-two">Get it on Firefox</button>
+        </div>
+      </div>
+
+      <img class="f-img" src="images/illustration-hero.svg" alt="illustration-hero">
+    </div>
+
+    <div class="b-f-img"></div>
+  </main>
+
+  <div class="s-div">
+
+    <span>Features</span>
+    <p>Our aim is to make it quick and easy for you to access your favourite websites. 
+    Your bookmarks sync between your devices so you can access them on the go.
+    </p>
+    
+    <div class="sf-div">
+      <section class="ss-div">
+        <button id="simple" class="nonBorder borderB" >Simple Bookmarking</button>
+        <button id="speedy" class="nonBorder" >Speedy Searching</button>
+        <button id="easy" class="nonBorder" >Easy Sharing</button>
+      </section>
+
+      <div class="content">
+        <div class="" id="default">
+          <img class="s-img" src="images/illustration-features-tab-1.svg" alt="illustration-features-tab-1">
+          <div class="sft-div">
+            <h2>Bookmark in one click</h2>
+            <article>Organize your bookmarks however you like. Our simple drag-and-drop interface 
+            gives you complete control over how you manage your favourite sites.</article>
+            <button>More Info</button>
+          </div>
+        </div>
+  
+        <div class="hidden" id="st-div1">
+          <img class="s-img" src="images/illustration-features-tab-1.svg" alt="illustration-features-tab-1">
+          <div class="sft-div">
+            <h2>Bookmark in one click</h2>
+            <article>Organize your bookmarks however you like. Our simple drag-and-drop interface 
+              gives you complete control over how you manage your favourite sites.</article>
+            <button>More Info</button>
+          </div>
+        </div>
+  
+        <div class="hidden" id="st-div2">
+          <img class="s-img" src="images/illustration-features-tab-2.svg" alt="illustration-features-tab-2">
+          <div class="sft-div">
+            <h2>Intelligent search</h2>
+            <article>Our powerful search feature will help you find saved sites in no time at all. No need to trawl through all of your bookmarks.</article>
+            <button>More Info</button>
+          </div>
+        </div>
+  
+        <div class="hidden" id="st-div3">
+          <img class="s-img" src="images/illustration-features-tab-3.svg" alt="illustration-features-tab-3">
+          <div class="sft-div">
+            <h2>Share your bookmarks</h2>
+            <article>Easily share your bookmarks and collections with others. Create a shareable link that you can send at the click of a button.</article>
+            <button>More Info</button>
+          </div>
+        </div>
+  
+        <section class="b-s-img"></section>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="t-div">
+    <span>Download the extension</span>
+    <p class="f-p">We’ve got more browsers in the pipeline. Please do let us know if you’ve 
+    got a favourite you’d like us to prioritize.
+    </p>
+  
+    <div class="tf-div">
+
+      <div class="ts-div">
+        <img class="c-img" src="images/logo-chrome.svg" alt="logo-chrome">
+        <h3>Add to Chrome</h3>
+        <p class="s-p">Minimum version 62</p>
+        <img class="li-img" src="images/bg-dots.svg" alt="bg-dots">
+        <button>Add & Install Extension</button>
+      </div>
+
+      <div class="tt-div">
+        <img class="fx-img" src="images/logo-firefox.svg" alt="logo-firefox">
+        <h3>Add to Firefox</h3>
+        <p class="s-p">Minimum version 55</p>
+        <img class="li-img" src="images/bg-dots.svg" alt="bg-dots">
+        <button>Add & Install Extension</button>
+      </div>
+
+      <div class="tft-div">
+        <img class="o-img" src="images/logo-opera.svg" alt="logo-opera">
+        <h3>Add to Opera</h3>
+        <p class="s-p">Minimum version 46</p>
+        <img class="li-img" src="images/bg-dots.svg" alt="bg-dots">
+        <button>Add & Install Extension</button>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="fth-div">
+    <span>Frequently Asked Questions</span>
+    <p>Here are some of our FAQs. If you have any other questions you’d like 
+    answered please feel free to email us.</p>
+
+    <div class="accordion mb-5" id="accordionExample">
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+            What is Bookmark?
+          </button>
+        </h2>
+        <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+            How can I request a new browser?
+          </button>
+        </h2>
+        <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+            Is there a mobile app?
+          </button>
+        </h2>
+        <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseThree">
+            What about other Chromium browsers?
+          </button>
+        </h2>
+        <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <button>More Info</button>
+  </div>
+
+  <footer>
+    <div class="fi-div">
+      <h5>35,000+ ALREADY JOINED</h5>
+      <span>Stay up-to-date with what we’re doing</span>
+      <form action="#" method="get">
+        <input type="email" name="" id="email" placeholder="Enter your email address" required>
+        <input type="button" id="button" value="Contact Us">
+      </form>
+    </div>
+
+    <div class="footbar">
+      <img class="f-logo" src="images/logo-bookmark.svg" alt="logo-bookmark">
+      <div class="f-bar">
+        <a href="#">Features</a>
+        <a href="#">Pricing</a>
+        <a href="#">Contact</a>
+      </div>
+
+      <div class="media">
+        <a href="#" class="m-div"><i class="fab fa-facebook-f"></i></a>
+        <a href="#" class="m-div"><i class="fab fa-twitter"></i></a>
+      </div>
+    </div>
+
+    <p class="attribution">
+      Coded by <a href="https://twitter.com/shabscc?s=11&t=AMWJpREjnd1Jb5-1Y1Bt3Q">ShabsCreativeContent</a>.
+    </p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  <script src="app.js"></script>
+</body>
+</html>
